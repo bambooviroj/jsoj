@@ -1,0 +1,48 @@
+{
+  "name": "oj",
+  "version": "1.0.0",
+  "description": "oj",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib --source-maps",
+    "test": "npx mocha --require @babel/polyfill --require @babel/register  'src/**/*.spec.js'",
+    "report": "npx mocha --require @babel/polyfill --require @babel/register 'src/**/*.spec.js' --reporter mochawesome",
+    "compile": "npx babel",
+    "run": "npx babel-node"
+  },
+  "author": "Huiming",
+  "license": "ISC",
+  "dependencies": {
+    "mnemonist": "^0.30.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-do-expressions": "^7.5.0",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-function-sent": "^7.5.0",
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.1.0",
+    "undefined": "^0.1.0"
+  }
+}

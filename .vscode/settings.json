@@ -1,0 +1,10 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code Light',Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "200",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.cursorStyle": "line",
+    "javascript.validate.enable": false
+}

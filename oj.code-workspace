@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Dracula",
+		"terminal.integrated.cursorStyle": "line",
+		"javascript.validate.enable": false
+	}
+}
