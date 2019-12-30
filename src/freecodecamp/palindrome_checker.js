@@ -1,7 +1,7 @@
 function palindrome(str) {
   const ignore_case_cmp = (ascii_a, ascii_b) => {
-    ascii_a_lower = ascii_a > 96 ? ascii_a - 32 : ascii_a
-    ascii_b_lower = ascii_b > 96 ? ascii_b - 32 : ascii_b
+    const ascii_a_lower = ascii_a > 96 ? ascii_a - 32 : ascii_a
+    const ascii_b_lower = ascii_b > 96 ? ascii_b - 32 : ascii_b
 
     return ascii_a_lower == ascii_b_lower
   }
@@ -41,4 +41,4 @@ function palindrome(str) {
   return true
 }
 
-palindrome("_eye")
+palindrome("_eye") |> console.log
