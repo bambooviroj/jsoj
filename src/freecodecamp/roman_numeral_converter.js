@@ -5,8 +5,6 @@
 
 // [I, V, X, L, C, D, M]
 
-
-
 function convertToRoman(num) {
     let romenNum = ""
     const digitsSymbols = "IVXLCDM"
