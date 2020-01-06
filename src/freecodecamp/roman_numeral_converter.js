@@ -1,8 +1,6 @@
 // 3 9 9 9
-
 // MMM CM XC IX
 // III IX IX IX
-
 // [I, V, X, L, C, D, M]
 
 function convertToRoman(num) {
@@ -33,10 +31,6 @@ function levelMapper (digit, level) {
     }).join("")
 }
 
-/* 
-take 1 - 10 integer 
-return Romen String
-*/
 function oneToTenMapper (num) {
     return ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][num]
 }
